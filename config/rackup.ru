@@ -1,3 +1,4 @@
+require 'sinatra'
 require File.dirname(__FILE__) + "/../shortener"
 
 set :app_file, File.expand_path(File.dirname(__FILE__) + '/../shortener.rb')
